@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="app-bg-container">
+        <h1 class="">Temperature Converter</h1>
+        <div class="card-bg-container">
+            <div class="top-section-bg-container">
+                <div class="input-bg-container">
+                    <p class="name">Degrees</p>
+                    <input type="number" class="temp-input" id="input-heat" />
+                </div>
+            </div>
+            <div class="top-section-bg-container">
+                <div class="temp-bg-container">
+                    <p class="name">From</p>
+                    <select id="from-temp-type" class="selection-dropdown">
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="celsius">Celsius</option>
+                        <option value="Kelvin">Kelvin</option>
+                    </select>
+                </div>
+                <div class="temp-bg-container">
+                    <p class="name">To</p>
+                    <select id="to-temp-type" class="selection-dropdown">
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="celsius">Celsius</option>
+                        <option value="Kelvin">Kelvin</option>
+                    </select>
+                </div>
+            </div>
+
+            <p class="name">Result</p>
+            <div class="result-bg-container">
+                <p class="result" id="result"> </p>
+            </div>
+            <div class="btn-bg-container">
+                <button class="btn" onclick="convert()">Convert</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

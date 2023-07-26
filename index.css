@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+}
+
+
+.app-bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #fff2cc, #ffe599);
+}
+
+.card-bg-container {
+    max-width: 80%;
+    padding: 30px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #f3f6f4;
+}
+
+.top-section-bg-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.input-bg-container {
+    border-bottom: 2px solid #bcbcbc;
+
+
+}
+
+.name {
+    color: #999999;
+    font-size: 22px;
+}
+
+@media(min-width:768px) {
+    .name {
+        font-size: 28px;
+    }
+
+    .card-bg-container {
+        border: 2px solid;
+        width: 60%;
+    }
+}
+
+.temp-input {
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    border: none;
+    margin-right: 20px;
+    background-color: transparent;
+}
+
+
+
+
+
+.temp-bg-container {
+    width: 45%;
+    border-bottom: 2px solid #bcbcbc;
+}
+
+.selection-dropdown {
+    padding: 10px;
+    min-width: 60px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+@media(min-width:768px) {
+    .selection-dropdown {
+        font-size: 22px;
+    }
+}
+
+.result-bg-container {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+
+
+.result {
+    font-size: 24px;
+    font-family: "Roboto";
+    border-bottom: 2px solid #bcbcbc;
+
+}
+
+
+.btn-bg-container {
+    text-align: center;
+}
+
+.btn {
+    width: 80%;
+    background-color: #137dcc;
+    font-size: 18px;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    min-height: 60px;
+    margin-top: 20px;
+}
+
+@media(min-width:768px) {
+    .btn {
+        font-size: 24px;
+        width: 50%;
+    }
+}
